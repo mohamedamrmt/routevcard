@@ -6,6 +6,10 @@
    @csrf
     <div class="card-body">
         <div class="form-group">
+            <label for="exampleInputEmail1">profile name</label>
+            <input type="text" class="form-control" name="profile_name"  placeholder="profile name">
+        </div>
+        <div class="form-group">
             <label for="exampleInputEmail1">phone</label>
             <input type="text" class="form-control" name="phone"  placeholder="phone">
         </div>
